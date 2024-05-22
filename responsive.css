@@ -1,0 +1,48 @@
+@media (max-width: 800px) {
+  .nav_child p span {
+    display: none;
+  }
+  .nav_child p {
+    padding: 10px;
+  }
+  .header_form {
+    flex-basis: 100%;
+  }
+  .header_form #e-mail {
+    margin: 10px auto;
+    flex-basis: 100%;
+    padding: 10px;
+  }
+  .header_form .header_btn {
+    margin: 10px auto;
+    flex-basis: 50%;
+    padding: 10px;
+  }
+  .box_child h1 {
+    flex-basis: 100%;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 50px;
+  }
+  .box_child p {
+    font-size: 20px;
+    margin: 10px auto;
+    text-align: center;
+  }
+  .box_inner:nth-child(3) {
+    flex-direction: column-reverse;
+  }
+  .box_inner:nth-child(7) {
+    flex-direction: column-reverse;
+  }
+  .footer_child ul {
+    flex-basis: 45%;
+    margin-bottom: 15px;
+  }
+  .header_main h1 {
+    font-size: 25px;
+  }
+  .nav_menu img {
+    height: 15px;
+  }
+}

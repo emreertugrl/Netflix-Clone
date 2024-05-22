@@ -1,0 +1,328 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg--black);
+  color: var(--white);
+}
+:root {
+  --red: rgb(229, 9, 20);
+  --white: #fff;
+  --bg--gray: #2d2d2d;
+  --bg--black: #000;
+}
+/* HEADER */
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/image/bg-image.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  padding: 0px 8%;
+  border-bottom: 5px solid #2d2d2d;
+}
+.nav_menu {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.nav_menu .logo {
+  height: 100px;
+}
+.nav_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav_child {
+  margin-right: 15px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 2px 10px;
+  width: 126.4;
+  height: 32;
+  font-size: 15px;
+  cursor: pointer;
+}
+.nav_child p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav_child i {
+  margin: 0 8px;
+}
+.nav_list input {
+  height: 32;
+  width: 102.6;
+  padding: 0 4px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: var(--red);
+  border: none;
+  font-weight: bold;
+  transition: all 0.2s ease-in;
+}
+.nav_list input:hover {
+  background-color: rgba(229, 9, 20, 0.7);
+}
+
+/* header main */
+
+.header_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 120px auto;
+  text-align: center;
+}
+.header_main h1 {
+  margin-top: 25px;
+  font-size: 45px;
+}
+.header_main p {
+  margin: 10px auto;
+  width: 100%;
+  font-size: 23px;
+}
+.header_main .par {
+  font-size: 19px;
+}
+.header_form {
+  margin: 10px auto;
+  width: 60%;
+  padding: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+.header_form #e-mail {
+  cursor: pointer;
+  flex-basis: 68%;
+  text-align: left;
+  padding: 15px 50px 15px 15px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  background-color: rgba(45, 45, 45, 0.8);
+  color: white;
+  font-size: large;
+  margin-right: 1%;
+}
+.header_form #e-mail:hover {
+  font-size: 15px;
+  height: 52.6px;
+  text-align: start;
+}
+.header_form .header_btn {
+  cursor: pointer;
+  flex-basis: 30%;
+  text-align: left;
+  font-weight: bold;
+  color: #fff;
+  background-color: var(--red);
+  font-size: 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  justify-content: center;
+  text-align: center;
+}
+
+.header_form .header_btn:hover {
+  background-color: rgba(229, 9, 20, 0.7);
+}
+/* box area */
+.box {
+  border-bottom: 5px solid #2d2d2d;
+}
+.border_bottom {
+  border-bottom: 5px solid #2d2d2d;
+}
+.box_inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  width: 100%;
+}
+.box_child {
+  flex-basis: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+
+  margin-right: 10px;
+}
+.box_text {
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  margin: auto 20px;
+}
+.box_text h1 {
+  flex-basis: 90%;
+  font-size: 46px;
+  font-weight: 800;
+}
+.box_text p {
+  font-size: 23px;
+  flex-basis: 90%;
+}
+.box_image {
+  display: flex;
+  flex-basis: 40%;
+  position: relative;
+  z-index: 10;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.box_image video {
+  flex-basis: 80%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  z-index: -1;
+  width: 500px;
+  height: 500px;
+}
+.box_video2 {
+  padding: auto 5px;
+  flex-basis: 50%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -1;
+}
+/* question area */
+/* burası açılır kısım */
+.whats_netflix {
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 5px solid #2d2d2d;
+}
+
+.accordion {
+  margin: 60px auto;
+  width: 90%;
+  flex-basis: 80%;
+}
+.accordion li {
+  list-style: none;
+  width: 100%;
+  padding: 5px;
+}
+.accordion li label {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  background: #303030;
+  margin-bottom: 2px;
+  cursor: pointer;
+  position: relative;
+}
+.accordion li label::after {
+  content: "+";
+  font-size: 34px;
+  position: absolute;
+  right: 20px;
+  transition: transform 0.5s;
+}
+.accordion li input[type="radio"] {
+  display: none;
+}
+.accordion .content {
+  background: #303030;
+  text-align: left;
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s, padding 0.5s;
+}
+.accordion input[type="radio"]:checked + label + .content {
+  max-height: 600px;
+  padding: 30px 20px;
+}
+.accordion input[type="radio"]:checked + label::after {
+  transform: rotate(135deg);
+}
+/* burası açılır kısım bitişi*/
+.whats_inner h1 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 25px;
+  text-align: center;
+}
+.whats_from {
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-align: center;
+  flex-direction: column;
+}
+.whats_from p {
+  font-size: 20px;
+}
+.whats_from .form_link {
+  margin-top: 15px;
+}
+/* footer */
+footer {
+  width: 70%;
+  margin: 15px auto;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+.footer_inner p {
+  color: #fff;
+}
+.footer_child {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 20px auto;
+  justify-content: space-between;
+}
+.footer_child ul li a {
+  color: rgb(155, 152, 152);
+}
+.footer_child ul li a:hover {
+  text-decoration: underline;
+}
+.son span {
+  flex-basis: 10%;
+  display: inline;
+  border: rgb(155, 152, 152) 1px solid;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+footer .son_p {
+  color: rgb(155, 152, 152);
+  margin-top: 15px;
+}
